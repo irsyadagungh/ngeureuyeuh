@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="../assets/css/style3.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="background">
-        <img src="pics/shape.png" alt="Ellipse 23" class="ellipse-23">
+        <img src="../assets/pics/shape.png" alt="Ellipse 23" class="ellipse-23">
         <div class="shape"></div>
         <h2 class="welcome">Welcome to T-Zens</h2>
         <p class="sign">SIGN UP</p>
@@ -27,7 +27,7 @@
 
                 <!-- Kolom 2 -->
                 <div class="kolom2">
-                    <input class="belakang">
+                    <input class="belakang" name="nama">
                 </div>
                 <div class="inputan2">
                     <p>Nama :</p>
@@ -35,7 +35,7 @@
 
                 <!-- Kolom 3 -->
                 <div class="kolom3">
-                    <input class="tengah">
+                    <input class="tengah" name="email">
                 </div>
                 <div class="inputan3">
                     <p>Email :</p>
@@ -43,7 +43,7 @@
 
                 <!-- Kolom 4 -->
                 <div class="kolom4">
-                    <input class="bawah">
+                    <input class="bawah" type="password" name="password">
                 </div>
                 <div class="inputan4">
                     <p>Password :</p>
@@ -65,12 +65,23 @@
                             Terms of Use </a> and <a href=""> Privacy Policy.</a></p>
                 </div>
                 <div class="img">
-                    <img src="pics/duduk.png" alt="" width="200px" height="">
+                    <img src="../assets/pics/duduk.png" alt="" width="200px" height="">
                 </div>
 
-                <button class="button button2">Daftar</button>
+                <button type="submit" class="button button2" onclick="window.location.href='done.html'" name="submit"
+                    value="submit">Daftar</button>
 
-                <button class="button button2" onclick="window.location.href='done.html'">Daftar</button>
+                <?php
+                include '../lib/library.php';
+
+                if (isset($_POST['submit'])) {
+                    mysqli_query($koneksi, "insert into account set
+                    nim = '$_POST[nim]',
+                    nama = '$_POST[nama]',
+                    email = '$_POST[email]',
+                    password = '$_POST[password]'");
+                }
+                ?>
             </form>
 
         </div>

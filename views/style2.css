@@ -1,0 +1,236 @@
+:root {
+  --Background: #d8eefe;
+  --biru-tua: #094067;
+  --abu-abu: #5f6c7b;
+  --white: #fffffe;
+  --biru-muda: #3da9fc;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--Background);
+  height: 100vh;
+}
+
+.inputan3 {
+  width: 100px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 160px;
+  left: 60px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.inputan4 {
+  width: 100px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 235px;
+  left: 60px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+
+.kolom3 {
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 185px;
+  left: 60px;
+  overflow: hidden;
+}
+
+.kolom4 {
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 260px;
+  left: 60px;
+  overflow: hidden;
+}
+
+.checkbox {
+  width: 2000px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 500px;
+  left: 60px;
+  overflow: hidden;
+}
+
+.lisensi {
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  font-size: 12px;
+  top: 501px;
+  left: 80px;
+  overflow: hidden;
+}
+.lisensi2 {
+  width: 500px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  font-size: 12px;
+  top: 550px;
+  left: 60px;
+  overflow: hidden;
+}
+.memiliki {
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  font-size: 12px;
+  top: 301px;
+  left: 555px;
+  overflow: hidden;
+}
+
+.img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  font-size: 12px;
+  top: 525px;
+  left: 565px;
+  overflow: hidden;
+}
+
+.class {
+  position: relative;
+  color: #3da9fc;
+}
+
+.depan {
+  width: 50%;
+  height: 30px;
+}
+.belakang {
+  width: 50%;
+  height: 30px;
+}
+.tengah {
+  width: 50%;
+  height: 30px;
+}
+.bawah {
+  width: 50%;
+  height: 30px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #3da9fc;
+  width: 150px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 390px;
+  left: 55px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px black;
+}
+
+.footer {
+  position: absolute;
+  top: 51vh;
+  left: 2vh;
+  font-size: 1;
+}
+
+.background {
+  background-color: white;
+  height: 100vh;
+  width: 50%;
+  position: absolute;
+  left: 15%;
+}
+
+.bg {
+  background-color: white;
+}
+
+.welcome {
+  text-align: center;
+  color: #3da9fc;
+}
+
+.input {
+  text-align: center;
+}
+
+.done .foter {
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  width: 100%;
+}
+.done1 {
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  width: 100%;
+}
+
+.sign {
+  text-align: center;
+  top: 50px;
+  margin-top: 10vh;
+}
+
+.bot {
+  position: absolute;
+}
+
+.mid {
+  text-align: center;
+}
+
+.v178_9 {
+  width: 80px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 267px;
+  left: 187px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}

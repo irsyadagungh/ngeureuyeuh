@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style3.css">
+    <link rel="stylesheet" href="../assets/css/style4.css">
     <title>Document</title>
 </head>
 
 <body>
+    <img src="../assets/pics/shape3.png" alt="Ellipse 23" class="ellipse-23">
     <div class="background">
-        <img src="../assets/pics/shape.png" alt="Ellipse 23" class="ellipse-23">
         <div class="shape"></div>
         <h2 class="welcome">Welcome to T-Zens</h2>
         <p class="sign">SIGN UP</p>
@@ -68,7 +68,7 @@
                     <img src="../assets/pics/duduk.png" alt="" width="200px" height="">
                 </div>
 
-                <button type="submit" class="button button2" onclick="window.location.href='done.html'" name="submit"
+                <button type="submit" class="button" onclick="window.location.href='done.html'" name="submit"
                     value="submit">Daftar</button>
 
                 <?php
